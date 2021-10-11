@@ -6,7 +6,7 @@ LABEL maintainer="JuliBCN <julibcn@gmail.com>"
 ENV TZ=Europe/Dublin
 
 # Mensaje de bienvenida
-RUN echo 'I am a huge geek that only copy text' > /var/www/html/index.html
+RUN echo 'I am a huge geek that only copy text' > /usr/local/apache2/htdocs/index.html
 
 # Puerto de Ejecucion
 EXPOSE 80/tcp
